@@ -1,0 +1,104 @@
+/* style.css */
+body{
+  background: white;
+  color: black;
+  font-size: 20px;
+  font-family: Helvetica;
+  text-align: center;
+}
+h1{
+  font-family: Roboto;
+  color: green;
+  font-weight: lighter;
+  font-size: 24px;
+}
+h2 {
+  font-family: Roboto;
+  color: white;
+  font-weight: lighter;
+  font-size: 20px;
+}
+h3 {
+  font-family: Roboto;
+  color: yellow;
+  font-weight: bold;
+  font-size: 24px;
+  text-align:center;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("images/l-entree-du-campus.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0,50;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: green;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+#footer a {
+  font-size:50px;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+#background-image{
+  align-items: center;
+  opacity:0,8;
+}
+
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+#logo {
+  width: 50px
+}
+
+.btn-perso {
+  width: 150px;
+  background-color: green;
+  border: green;
+  font-weight: bold;
+  font:roboto;
+}
+
+.image-perso {
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-style: none;
+    width: 100px;
+}
+
